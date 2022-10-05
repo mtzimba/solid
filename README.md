@@ -18,7 +18,7 @@ Sigla | Princípio
 </body>
 </html>
 
-O uso destes princípios no projeto de _design_ de classes da POO ajuda a manter um código mais bem estruturado, diminuindo o acoplamento entre classes, com isso, ganhando em legibilidade, testabilidade e manutenibilidade do mesmo.
+O uso destes princípios no projeto de _design_ de classes da POO ajuda a manter um código melhor estruturado, diminuindo o acoplamento entre classes, com isso, ganhando em legibilidade, testabilidade e manutenibilidade do mesmo.
 
 ## **S** - _Single Responsibility Principle_ - Responsabilidade única
 
@@ -26,7 +26,7 @@ Robert C. Martin define este princípio como: _Uma classe deveria ter uma e apen
 
 ![canivete_suico](https://user-images.githubusercontent.com/2261749/191259000-cf605f34-5f99-4e74-8f7e-95e571d4d62d.png)
 
-Desta forma, toda vez que for realizada alguma manutenção em uma destas atribuições (funcionalidades), faz com que aumente a chance impacto em outros pontos. Classes que são construídas neste formato devem ser quebradas em classes mais especialista para cada atribuição especifica. Isso facilita a manutenção no código, pois a alteração é num ponto especifico, criação de testes e diminuição da concorrência nas alterações num mesmo ponto.
+Desta forma, toda vez que for realizada alguma manutenção em uma destas atribuições (funcionalidades), faz com que aumente a chance impacto em outros pontos. Classes que são construídas neste formato devem ser quebradas em classes mais especialista para cada atribuição especifica. Isso facilita a manutenção do código, pois a alteração é num ponto especifico, na criação de testes e na diminuição da concorrência nas alterações num mesmo lugar.
 
 ## **O**CP - _Open Closed Principle_ - Aberto/Fechado
 

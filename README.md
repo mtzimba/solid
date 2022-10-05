@@ -36,6 +36,10 @@ Desta forma, toda vez que for realizada alguma manutenção em uma destas atribu
 
 ## **D**IP - _Dependency Inversion Principle_ - Inversão de dependência
 
+Robert C. Martin define este princípio como: _Dependa de abstrações e não de implementações_. Este princípio está ligado diretamente ao acomplamento de classes. Orienta o uso de abstrações (intefaces e classes abstratas) pois estas tendem a mudar menos, são mais estáveis. Desta forma, por sofretem poucas alterações, dificilmente vão introduzir problemas nas classes principais que fazem uso delas.
+
+Um exemplo bem claro do uso deste principio são as abstrações que são usadas para conexões com banco de dados. Elas ajudam a quebrar o acoplamento forte das implementações de um banco de dados específios, como por exemplo MySQL.
+
 ## Referências 
 
 1. http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
@@ -43,3 +47,4 @@ Desta forma, toda vez que for realizada alguma manutenção em uma destas atribu
 3. https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design-pt
 4. https://www.youtube.com/watch?v=rnWPWU7XKeg
 5. https://www.baeldung.com/solid-principles
+6. https://www.casadocodigo.com.br/products/livro-oo-solid
